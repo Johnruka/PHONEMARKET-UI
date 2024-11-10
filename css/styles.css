@@ -1,0 +1,125 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117; /* Very dark blue background */
+    color: #ffffff; /* All text in white */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1C3F4B; /* Dark teal navbar */
+    padding: 15px; /* Add some padding for aesthetics */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #1C3F4B; /* Dark teal background */
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo {
+    border-radius: 50%; /* Make it round */
+    background-color: #1C3F4B; /* Match the header background */
+    padding: 20px; /* Add padding */
+    width: 200px; /* Set logo width */
+    height: 200px; /* Set logo height */
+    display: block; /* Center the logo in its container */
+    margin: 0 auto 20px; /* Center and add margin at the bottom */
+    object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+}
+/* Logo Styling with Shadow */
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: #1C3F4B;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    object-fit: contain;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+
+/* Section Background and Text Colors */
+section {
+    background-color: #05090f; /* Dark background for the section */
+    color: #ffffff; 
+    padding: 50px 0;
+}
+
+/* Title Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+/* Card Styling */
+.card {
+    background-color: #161b22; /* Dark card background */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex; /* Use flex to allow for equal heights */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space out elements evenly */
+    text-align: center; /* Center text within the card */
+    padding: 15px; /* Add padding for spacing */
+    height: 100%; /* Maintain equal height for cards */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
+}
+
+/* Image Styling */
+.card-img-top {
+    width: 100%; /* Ensure full width */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the entire image is visible */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for image opacity */
+}
+
+.card:hover .card-img-top {
+    opacity: 0.9; /* Slightly fade the image on hover */
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #161b22; 
+    color: #ffffff; /* White text */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #161b22; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Modal Body Styling */
+.modal-body {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.modal-body img {
+    max-width: 250px; /* Set a maximum width for the laptop image */
+    margin-right: 20px; /* Spacing between image and text */
+}
+
+/* Additional styling for contact information in modal */
+.modal-body .contact-info-box {
+    background-color: #1C3F4B; /* Dark teal box for contact info */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 0.85em; /* Smaller font size */
+}
