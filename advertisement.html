@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <h2>Advertisement Management</h2>
+    <form id="adForm">
+        <div class="mb-3">
+            <label for="adTitle" class="form-label">Ad Title</label>
+            <input type="text" id="adTitle" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="adDescription" class="form-label">Description</label>
+            <textarea id="adDescription" class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Post Ad</button>
+    </form>
+    <div id="adMessage" class="mt-3"></div>
+
+    <h3>Your Advertisements</h3>
+    <ul id="adList" class="mt-4"></ul>
+</div>
+<script src="js/advertisements.js"></script>
