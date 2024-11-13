@@ -1,111 +1,79 @@
 const products = [
     {
-        title: "Lenovo ThinkPad X1 Carbon Gen 9",
-        image: "images/LenovoCarbon.png",
-        description: "A lightweight, premium business laptop with exceptional durability and performance.",
-        price: "$1,499",
-        contactInfo: "alexlexicon@example.com",
+        title: "_iphone_16_pro_max",
+        image: "images/apple-iphone-16-pro-max-3.jpg",
+        description: "premium business Mobile phone with exceptional durability and performance.",
+        price: "$1,429",
+        contactInfo: "john@example.com",
         specs: {
-            processor: "Intel Core i5/i7 (11th Gen)",
-            display: "14\" FHD (1920 x 1080) or 4K UHD (3840 x 2160)",
-            ram: "Up to 32GB LPDDR4x",
-            storage: "Up to 1TB PCIe SSD",
-            graphics: "Integrated Intel Iris Xe",
-            batteryLife: "Up to 15 hours",
-            weight: "Approximately 2.5 lbs (1.13 kg)"
+            OS	: "iOS 18, upgradable to iOS 18.1"
+           
+           
+           
     
      
         }
     },
     {
-        title: "Microsoft Surface Laptop 4",
-        image: "images/microsoft.png",
-        description: "A stylish laptop that offers great performance and a high-resolution touchscreen.",
-        price: "$1,499",
-        contactInfo: "alexlexicon@example.com",
+        title: "huawei-nova-13",
+        image: "images/huavei-nova-13.jpg",
+        description: "A Mobile phone that offers great performance and a high-resolution touchscreen.",
+        price: "$1,022",
+        contactInfo: "john@example.com",
         specs: {
-            processor: "Intel Core i5/i7 or AMD Ryzen 5/7",
-            display: "13.5\" or 15\" PixelSense (2256 x 1504 or 2496 x 1664)",
-            ram: "Up to 32GB LPDDR4x",
-            storage: "Up to 1TB SSD",
-            graphics: "Integrated Intel Iris Xe or AMD Radeon",
-            batteryLife: "Up to 19 hours",
-            weight: "Approximately 2.79 lbs (1.27 kg)"
+            Type :	"OLED, 1B colors, HDR, 120Hz"
+           
         }
     },
     {
-        title: "Acer Swift X",
-        image: "images/swiftx.png",
-        description: "A lightweight laptop that is powerful enough for creative professionals.",
+        title: "huawei-pura-70-pro+",
+        image: "images/huawei-pura70-pro-plus.jpg",
+        description: "A mobile phone that is powerful enough for creative professionals.",
         price: "$1,399",
-        contactInfo: "alexlexicon@example.com",
+        contactInfo: "John@example.com",
         specs: {
-            processor: "AMD Ryzen 7 5800U",
-            display: "14\" FHD (1920 x 1080) IPS",
-            ram: "Up to 16GB LPDDR4x",
-            storage: "Up to 1TB NVMe SSD",
-            graphics: "NVIDIA GeForce RTX 3050",
-            batteryLife: "Up to 12 hours",
-            weight: "Approximately 2.65 lbs (1.2 kg)"
+            Type : "LTPO OLED, 1B colors, HDR, 120Hz, 2500 nits (peak)"
         }
     },
     {
-        title: "Gigabyte AERO 15 OLED",
-        image: "images/aero.png",
-        description: "A creative laptop with an OLED display and powerful hardware.",
-        price: "$1,899",
-        contactInfo: "alexlexicon@example.com",
+        title: "huawei-pura-70",
+        image: "images/huawei-pura70.jpg",
+        description: "A creative Mobile phone with an OLED display and powerful hardware.",
+        price: "$899",
+        contactInfo: "john@example.com",
         specs: {
-            processor: "Intel Core i7 (10th/11th Gen)",
-            display: "15.6\" 4K OLED (3840 x 2160)",
-            ram: "Up to 64GB DDR4",
-            storage: "Up to 2TB PCIe SSD",
-            graphics: "NVIDIA GeForce RTX 3070/3080",
-            batteryLife: "Up to 8 hours",
-            weight: "Approximately 4.4 lbs (2.0 kg)"
+            Type :	"LTPO OLED, 1B colors, HDR, 120Hz, 2500 nits (peak)"
         }
     },
     {
-        title: "Lenovo Legion 5 Pro",
-        image: "images/legion5.png",
-        description: "A high-performance gaming laptop with great thermal management.",
+        title: "huawei-nova-flip",
+        image: "images/huawei-nova-flip.jpg",
+        description: "A high-performance Mobile phone with great thermal management.",
         price: "$1,499",
-        contactInfo: "alexlexicon@example.com",
+        contactInfo: "John@example.com",
         specs: {
-            processor: "AMD Ryzen 7 5800H",
-            display: "16\" QHD (2560 x 1600) with 165Hz refresh rate",
-            ram: "Up to 32GB DDR4",
-            storage: "Up to 1TB NVMe SSD",
-            graphics: "NVIDIA GeForce RTX 3060/3070",
-            batteryLife: "Up to 6 hours",
-            weight: "Approximately 5.5 lbs (2.5 kg)"
+            Type :	"Foldable flip Mobile phone, 120Hz"
         }
     },
     {
-        title: "Asus ProArt StudioBook 15",
-        image: "images/proart.png",
-        description: "Designed for creative professionals, this laptop offers excellent color accuracy.",
+        title: "/huawei-nova-11-pro",
+        image: "images/huawei-nova11-pro.jpg",
+        description: "Designed for creative professionals, this phone offers excellent color accuracy.",
         price: "$1,899",
-        contactInfo: "alexlexicon@example.com",
+        contactInfo: "John@example.com",
         specs: {
-            processor: "Intel Core i7/i9 or AMD Ryzen 9",
-            display: "15.6\" 4K UHD (3840 x 2160) or FHD",
-            ram: "Up to 64GB",
-            storage: "Up to 2TB PCIe SSD",
-            graphics: "NVIDIA GeForce RTX 3060/3070",
-            batteryLife: "TBD",
-            weight: "TBD"
+            Type :	"OLED, 1B colors, HDR10, 120Hz"
         }
     }
 ];
 
 function showLaptopDetails(product) {
-    document.getElementById('modal-laptop-image').src = product.image;
-    document.getElementById('modal-laptop-description').textContent = product.description;
-    document.getElementById('modal-laptop-contact').textContent = product.contactInfo; // Set contact information
+    document.getElementById('modal-phone-image').src = product.image;
+    document.getElementById('modal-phone-description').textContent = product.description;
+    document.getElementById('modal-phone-contact').textContent = product.contactInfo; // Set contact information
 
     // Prepare specifications list
-    const specsList = document.getElementById('modal-laptop-specs');
+    const specsList = document.getElementById('modal-phone-specs');
     specsList.innerHTML = ''; // Clear previous specifications
     for (const [key, value] of Object.entries(product.specs)) {
         const listItem = document.createElement('li');
@@ -114,7 +82,7 @@ function showLaptopDetails(product) {
     }
 
     // Show modal
-    const modal = new bootstrap.Modal(document.getElementById('laptopDetailModal'));
+    const modal = new bootstrap.Modal(document.getElementById('phoneDetailModal'));
     modal.show();
 }
 
@@ -131,7 +99,7 @@ products.forEach(product => {
                 <h5 class="card-title">${product.title}</h5>
                 <p class="card-text">${product.description}</p>
                 <p class="card-text"><strong>${product.price}</strong></p>
-                <button class="btn btn-success" onclick="showLaptopDetails(products[${products.indexOf(product)}])">Details</button>
+                <button class="btn btn-success" onclick="showPhoneDetails(products[${products.indexOf(product)}])">Details</button>
             </div>
         </div>
     `;
@@ -139,7 +107,7 @@ products.forEach(product => {
 });
 
     // Prepare specifications list
-    const specsList = document.getElementById('modal-laptop-specs');
+    const specsList = document.getElementById('modal-phone-specs');
     specsList.innerHTML = ''; // Clear previous specifications
     for (const [key, value] of Object.entries(product.specs)) {
         const listItem = document.createElement('li');
